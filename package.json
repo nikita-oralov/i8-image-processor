@@ -1,0 +1,28 @@
+{
+  "name": "@icons8/i8-image-processor",
+  "version": "1.1.7",
+  "description": "Convert PNG to JPEG if no alpha channel is used. Compress to <5 mb by downsampling. Compress image by max side. Get MD5 hash image. Get File image data.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vadim Bida, Sergey Skrynnikov, Nikita Oralov",
+  "keywords": [
+    "i8",
+    "image-processor"
+  ],
+  "type": "module",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.icons8.com/icons8/packages/i8-image-processor.git"
+  },
+  "dependencies": {
+    "blueimp-md5-es6": "^2.7.4",
+    "image-blob-reduce": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.44.0"
+  }
+}

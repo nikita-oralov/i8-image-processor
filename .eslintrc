@@ -1,0 +1,17 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": [
+		"standard",
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended"
+	],
+	"parserOptions": {
+		"parser": "babel-eslint",
+		"sourceType": "module",
+		"ecmaVersion": "2020"
+	}
+}
