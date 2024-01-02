@@ -5,16 +5,9 @@ function initializeJimp() {
   const script = document.createElement('script');
   script.src = SCRIPT_SRC;
   document.body.appendChild(script);
-  initMD5()
 }
 
-function initMD5() {
-  const script = document.createElement('script');
-  script.src = 'md5.min.js';
-  document.body.appendChild(script);
-}
-
-import {processImage} from './processImage'
+import { processImage } from './processImage'
 import { resizeImageIfNeeded, resizeImageByCanvasIfNeeded } from './resizeImage'
 import { checkPngAndConvertToJpegIfNeeded } from './convertPngToJpeg'
 import { getFileCheckSum, getFileDimensions } from './getFileData'

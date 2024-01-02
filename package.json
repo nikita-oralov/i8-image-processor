@@ -18,6 +18,7 @@
     "url": "https://gitlab.icons8.com/icons8/packages/i8-image-processor.git"
   },
   "dependencies": {
+    "crypto-es": "^2.1.0",
     "image-blob-reduce": "^4.1.0"
   },
   "devDependencies": {
