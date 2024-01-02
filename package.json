@@ -18,7 +18,6 @@
     "url": "https://gitlab.icons8.com/icons8/packages/i8-image-processor.git"
   },
   "dependencies": {
-    "blueimp-md5-es6": "^2.7.4",
     "image-blob-reduce": "^4.1.0"
   },
   "devDependencies": {

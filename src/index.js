@@ -1,5 +1,4 @@
 const SCRIPT_SRC = 'https://unpkg.com/jimp@0.9.8/browser/lib/jimp.min.js'
-const MD5_SRC =
 
 function initializeJimp() {
   if (!process.client || document.querySelector(`script[src="${SCRIPT_SRC}"]`)) return
