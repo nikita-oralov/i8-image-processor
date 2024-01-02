@@ -1,4 +1,4 @@
-import md5 from 'md5'
+import md5 from 'blueimp-md5-es6'
 export function getFileCheckSum(file) {
   return new Promise((resolve, reject) => {
     const reader = new FileReader()
